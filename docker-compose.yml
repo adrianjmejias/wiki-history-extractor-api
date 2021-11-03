@@ -12,7 +12,7 @@ services:
         ports:
             - "5673:5672"
         volumes:
-            - 'wiki_rabbit:/data'
+          - 'wiki_rabbit:/data'
 
     mongo:
         image: mongo:3.6.2
